@@ -49,6 +49,11 @@ class Template(db.Document):
         }
 
 
+
+@app.route('/register', methods=['POST'])
+def index():
+    return 'Sloovi Test API'
+
 @app.route('/register', methods=['POST'])
 def register():
     content = request.get_json(force=True)
