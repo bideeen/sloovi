@@ -1,4 +1,4 @@
-"# Sloovi Python Test" 
+# Sloovi Python Test
 <hr>
 
 [API](https://slapis.herokuapp.com/) is a powerful fully managed free template API provider that provides extensive APIs that range from subjects of templates and body of templates including the template name.
