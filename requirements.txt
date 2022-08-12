@@ -1,0 +1,7 @@
+Flask
+mongoengine 
+gunicorn
+flask-mogoengine
+dnspython
+Flask-JWT-Extended
+Werkzeug
