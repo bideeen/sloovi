@@ -1,5 +1,4 @@
 from flask import Flask, make_response, request, jsonify
-from api_constant import *
 from flask_mongoengine import MongoEngine
 from flask_jwt_extended import *
 from werkzeug.security import generate_password_hash, check_password_hash
@@ -12,6 +11,8 @@ jwt = JWTManager(app)
 
 # Mongo DB Database
 database_name = "API"
+password = 'nimda'
+db_name = 'sloovi'
 DB_URI = f"mongodb+srv://admin:{password}@cluster0.hhav7pm.mongodb.net/{db_name}?retryWrites=true&w=majority"
 app.config['MONGODB_HOST'] = DB_URI
 
