@@ -13,7 +13,7 @@ These are the endpoints in the Template API:
   <tr><td>/register</td>	<td>POST</td>	.</tr>
   <tr><td>/login</td>	<td>POST</td></tr>
   <tr><td>/templates</td>	<td>POST, GET</td></tr>
-  <tr><td>/templates/<template_id></td>	<td>GET, PUT, DELETE</td></tr>
+  <tr><td>/templates/template_id</td>	<td>GET, PUT, DELETE</td></tr>
 </table>
 
 
