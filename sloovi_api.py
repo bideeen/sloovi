@@ -50,7 +50,7 @@ class Template(db.Document):
 
 
 
-@app.route('/register', methods=['POST'])
+@app.route('/')
 def index():
     return 'Sloovi Test API'
 
